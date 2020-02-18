@@ -9,7 +9,7 @@ List implementations:
 
 Set implementations:
 
-	                    add      contains next     notes
+	                      add      contains next     notes
 	HashSet               O(1)     O(1)     O(h/n)   h is the table capacity
 	LinkedHashSet         O(1)     O(1)     O(1) 
 	CopyOnWriteArraySet   O(n)     O(n)     O(1) 
@@ -19,7 +19,7 @@ Set implementations:
 
 Map implementations:
 
-	                    get      containsKey next     Notes
+	                      get      containsKey next     Notes
 	HashMap               O(1)     O(1)        O(h/n)   h is the table capacity
 	LinkedHashMap         O(1)     O(1)        O(1) 
 	IdentityHashMap       O(1)     O(1)        O(h/n)   h is the table 
@@ -30,7 +30,7 @@ Map implementations:
 
 Queue implementations:
 
-	                    offer    peek poll     size
+	                      offer    peek poll     size
 	PriorityQueue         O(log n) O(1) O(log n) O(1)
 	ConcurrentLinkedQueue O(1)     O(1) O(1)     O(n)
 	ArrayBlockingQueue    O(1)     O(1) O(1)     O(1)
